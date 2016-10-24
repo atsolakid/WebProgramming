@@ -14,9 +14,9 @@ public class TestThread {
     public static void main(String args[]) {
 
         RunEx1 first = new RunEx1("--Thread(1)--");
-        first.start();
+        first.execute();
 
         RunEx1 second = new RunEx1("--Thread(2)--");
-        second.start();
+        second.execute();
     }
 }

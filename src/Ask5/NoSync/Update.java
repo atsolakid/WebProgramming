@@ -13,7 +13,7 @@ import Ask5.Sync.*;
  */
 class Update {
 
-    synchronized void updatesum(int i) {
+    void updatesum(int i) {
         Thread t = Thread.currentThread();
         for (int n = 0; n < 5; n++) {
             System.out.println(t.getName() + ":" + (i + n));

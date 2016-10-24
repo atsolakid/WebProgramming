@@ -33,8 +33,10 @@ class RunEx1 implements Runnable {
         }
         System.out.println("Thread " + threadName + " exiting.");
     }
-
-    public void start() {
+//
+    
+    
+    public void exec() {
         System.out.println("Starting " + threadName);
         if (thr == null) {
             thr = new Thread(this, threadName);

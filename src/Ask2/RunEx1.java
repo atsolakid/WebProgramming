@@ -49,7 +49,7 @@ class RunEx1 extends Thread {
         System.out.println("Thread " + threadName + " exiting.");
     }
 
-    public void start() {
+    public void execute() {
         System.out.println("Starting " + threadName);
         if (thr == null) {
             thr = new Thread(this, threadName);
